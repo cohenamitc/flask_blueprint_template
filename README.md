@@ -1,11 +1,11 @@
-# Flask Blueprint Template
+# Flask Blueprint Template 
 
-This template created using this great tutorial page from Digital Ocean:
+This template created using this great tutorial page from Digital Ocean (👏👏👏):
 
 https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
 
-## Getting started
-Clone this repo
+## Getting started 👶
+Clone this repo 
 ```bash
 git clone https://github.com/cohenamitc/flask_blueprint_template.git
 cd flask_blueprint_template
@@ -29,7 +29,7 @@ python3 run.py
 ***
 Open web browser session to `http://127.0.0.1:5000/api/status` to verify that everything is working
 
-## Our App Structure
+## Our App Structure ↘️
 
 ```
 📦flask_blueprint_template
@@ -58,21 +58,21 @@ Open web browser session to `http://127.0.0.1:5000/api/status` to verify that ev
  ┗ 📜run.py
 ```
 
-## Useful Scripts
+## Useful Scripts 📜
 
 Generate Flask Secrets
 
 `python3 scripts/secret_generator.py`
 
-## More Resources
-### Flask
+## More Resources 👩‍🎓
+### Flask 🌐
 https://flask.palletsprojects.com/en/2.0.x/
 
-### Flask-WTF
+### Flask-WTF 📝
 https://flask-wtf.readthedocs.io/en/0.15.x/
 
-### Flask-SQLAlchemy
+### Flask-SQLAlchemy 📅
 https://flask-sqlalchemy.palletsprojects.com/en/2.x/
 
 ***
-Happy coding!
+Happy coding! 🧑‍💻

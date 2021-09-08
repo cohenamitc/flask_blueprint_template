@@ -29,6 +29,37 @@ python3 run.py
 ***
 Open web browser session to `http://127.0.0.1:5000/api/status` to verify that everything is working
 ***
+
+## Our App Structure
+
+```
+~/flask_blueprint_app
+    |-- run.py
+    |-- config.py
+    |__ /.venv             # Virtual Environment
+    |__ /app               # Our Application Module
+         |-- __init__.py
+		 |-- /api          # Our API module
+		     |-- __init__.py
+			 |-- controllers.py
+         |-- /auth         # Our auth module
+             |-- __init__.py
+             |-- controllers.py
+             |-- models.py
+             |-- forms.py
+         |__ /templates
+             |-- 404.html
+             |__ /auth
+                 |-- signin.html
+         |__ /static
+```
+
+## Useful Scripts
+
+Generate Flask Secrets
+
+`python3 scripts/secret_generator.py`
+
 ## More Resources
 ### Flask
 https://flask.palletsprojects.com/en/2.0.x/

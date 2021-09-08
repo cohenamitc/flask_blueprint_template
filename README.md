@@ -32,25 +32,30 @@ Open web browser session to `http://127.0.0.1:5000/api/status` to verify that ev
 ## Our App Structure
 
 ```
-~/flask_blueprint_app
-    |-- run.py
-    |-- config.py
-    |__ /.venv             # Virtual Environment
-    |__ /app               # Our Application Module
-        |-- __init__.py
-		|-- /api          # Our API module
-		    |-- __init__.py
-            |-- controllers.py
-        |-- /auth         # Our auth module
-            |-- __init__.py
-            |-- controllers.py
-            |-- models.py
-            |-- forms.py
-        |__ /templates
-            |-- 404.html
-            |__ /auth
-                |-- signin.html
-        |__ /static
+📦flask_blueprint_template
+ ┣ 📂app
+ ┃ ┣ 📂api
+ ┃ ┃ ┣ 📜controllers.py
+ ┃ ┃ ┗ 📜__init__.py
+ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📜controllers.py
+ ┃ ┃ ┣ 📜forms.py
+ ┃ ┃ ┣ 📜models.py
+ ┃ ┃ ┗ 📜__init__.py
+ ┃ ┣ 📂static
+ ┃ ┣ 📂templates
+ ┃ ┃ ┣ 📂auth
+ ┃ ┃ ┃ ┣ 📜register.html
+ ┃ ┃ ┃ ┣ 📜signin.html
+ ┃ ┃ ┃ ┗ 📜signout.html
+ ┃ ┃ ┗ 📜404.html
+ ┃ ┗ 📜__init__.py
+ ┣ 📂scripts
+ ┃ ┗ 📜secret_generator.py
+ ┣ 📜app.db
+ ┣ 📜config.py
+ ┣ 📜requirements.txt
+ ┗ 📜run.py
 ```
 
 ## Useful Scripts

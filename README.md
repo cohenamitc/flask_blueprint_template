@@ -40,7 +40,7 @@ Open web browser session to `http://127.0.0.1:5000/api/status` to verify that ev
          |-- __init__.py
 		 |-- /api          # Our API module
 		     |-- __init__.py
-			 |-- controllers.py
+             |-- controllers.py
          |-- /auth         # Our auth module
              |-- __init__.py
              |-- controllers.py

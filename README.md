@@ -37,20 +37,20 @@ Open web browser session to `http://127.0.0.1:5000/api/status` to verify that ev
     |-- config.py
     |__ /.venv             # Virtual Environment
     |__ /app               # Our Application Module
-         |-- __init__.py
-		 |-- /api          # Our API module
-		     |-- __init__.py
-             |-- controllers.py
-         |-- /auth         # Our auth module
-             |-- __init__.py
-             |-- controllers.py
-             |-- models.py
-             |-- forms.py
-         |__ /templates
-             |-- 404.html
-             |__ /auth
-                 |-- signin.html
-         |__ /static
+        |-- __init__.py
+		|-- /api          # Our API module
+		    |-- __init__.py
+            |-- controllers.py
+        |-- /auth         # Our auth module
+            |-- __init__.py
+            |-- controllers.py
+            |-- models.py
+            |-- forms.py
+        |__ /templates
+            |-- 404.html
+            |__ /auth
+                |-- signin.html
+        |__ /static
 ```
 
 ## Useful Scripts

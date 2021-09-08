@@ -29,4 +29,15 @@ python3 run.py
 ***
 Open web browser session to `http://127.0.0.1:5000/api/status` to verify that everything is working
 ***
+## More Resources
+### Flask
+https://flask.palletsprojects.com/en/2.0.x/
+
+### Flask-WTF
+https://flask-wtf.readthedocs.io/en/0.15.x/
+
+### Flask-SQLAlchemy
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/
+
+***
 Happy coding!
